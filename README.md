@@ -1,16 +1,21 @@
 ![](https://img.shields.io/badge/Python-3.11-brightgreen.svg)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/Adding_Private_Data_to_LLMs_en.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/Ask_Your_Own_Data_LlamaIndex_LangChain_en.ipynb)
 
--- This is work in progress --
 
 # Adding Private Data to LLMs
 > LLMs have stunned the world with their capacity to create realistic images, code, and dialogue. Undoubtedly, ChatGPT has taken the world by storm. Millions are using it. But while it's great for general-purpose knowledge, it only knows information it was trained on, which is pre-2021 generally available internet data. It lacks awareness of your private data and remains uninformed about recent data sources. Thus, to improve them in that regard, we can provide them with information that we retrieved from a search step. This makes them more factual and gives a better ability to provide the model with up-to-date information, without the need to retrain these massive models. This is precisely what a retrieval-augmented LLM or Retrieval-Augmented Generation (RAG) system is. Indeed, this repository will precisely outline the creation of an RAG system and elucidate the optimization steps involved.
 
 ## Table of Contents
+- [RAG](#rag)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Useful Links](#useful-links)
 - [Contact](#Contact)
+
+## RAG
+<p align="center">
+    <img src="./assets/RAG.jpg" style="box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);" />
+</p>
 
 ## Tech Stack
 * [x] LangChain
@@ -52,18 +57,15 @@ Visit [http://127.0.0.1:7860](http://127.0.0.1:7860) on your machine to test the
 
 | Blog                                                                              | Plateform                                                        | Language | Notebook                                                                                                                              |
 |:---------------------------------------------------------------------------------:|:----------------------------------------------------------------:|:--------:|:-------------------------------------------------------------------------------------------------------------------------------------:|
-|   [Añade tus Datos Privados a los LLM Mediante LangChain y LlamaIndex](https://)  |  [Hiberus Blogs](https://www.hiberus.com/crecemos-contigo/)      | ES       |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/Adding_Private_Data_to_LLMs_en.ipynb)       |
-|   [Add Your Private Data to LLMs Using LangChain & LlamaIndex](https://)          |        Medium                                                    | EN       |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/Adding_Private_Data_to_LLMs_en.ipynb)       |
+|   [Ask Your Own Data](https://www.hiberus.com/crecemos-contigo/ask-your-own-data-generando-respuestas-sobre-datos-privados-en-entornos-seguros/)  |  [Hiberus Blog](https://www.hiberus.com/crecemos-contigo/)      | ES       |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/Ask_Your_Own_Data_LlamaIndex_LangChain_es.ipynb)       |
+|   [Ask Your Own Data](https://www.hiberus.com/crecemos-contigo/ask-your-own-data-generando-respuestas-sobre-datos-privados-en-entornos-seguros/)          |        Medium                                                    | EN       |  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/Ask_Your_Own_Data_LlamaIndex_LangChain_en.ipynb)       |
 
 ---
 ## Contact
-If you like it, give it a ⭐, then follow me on:
 
-<p align="center">
-&nbsp; <a href="https://twitter.com/NZekaoui?s=09" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/twitter.png" width="50" /></a>  
-&nbsp; <a href="https://www.linkedin.com/in/nour-eddine-zekaoui-ba43b1177/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="50" /></a>
-&nbsp; <a href="mailto:noureddinezekaoui@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="50" /></a> 
-</p>
+If you like it, give it a ⭐, then follow me on:
+- LinkedIn: [Nour Eddine ZEKAOUI](https://www.linkedin.com/in/nour-eddine-zekaoui-ba43b1177/)
+- Twitter: [@NZekaoui](https://twitter.com/NZekaoui)
 
 ---
  
